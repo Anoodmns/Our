@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/simpleImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:src="@drawable/app"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR APPOINMENTS"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingStart="12dp"
+        android:textColor="#304FFE"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/perk"
+       android:paddingStart="12dp"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+<TextView
+    android:id="@+id/note3"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:background="@color/purple_500"
+    android:text="Weeding 25"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+</TextView>
+
+        <TextView
+            android:id="@+id/note2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="6dp"
+            android:background="@color/teal_700"
+            android:text="The day of jop 25"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:id="@+id/note1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="6dp"
+            android:background="#00C853"
+            android:text="Ayad 22"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/per"
+        android:paddingStart="12dp"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/note4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@color/purple_500"
+            android:text="Weeding 25"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/note5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="6dp"
+            android:background="@color/teal_700"
+            android:text="The day of jop 25"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:id="@+id/note6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="6dp"
+            android:background="#00C853"
+            android:text="Ayad 22"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+
+        >
+        <Button
+            android:id="@+id/AddNote"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Note"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            />
+        <Button
+            android:id="@+id/about"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            />
+        <Button
+            android:id="@+id/callus"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Us"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/workhourse"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:textColor="@color/white"
+            android:text="Work Hourse"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".AddNote">
+    <ImageView
+        android:id="@+id/simpleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:src="@drawable/app"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Appointments"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingStart="12dp"
+        android:textColor="#304FFE"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/per"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+
+        >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:hint="Enter the Title of Appoiment"
+       android:layout_gravity="center"
+       android:background="@color/purple_500"
+       android:textColorHint="@color/white"
+       android:textColor="@color/white"
+       android:gravity="center"
+       android:paddingStart="12dp"
+       android:paddingEnd="12dp"
+       android:layout_marginStart="12dp"
+       android:layout_marginEnd="12dp"
+
+       />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter the note of Appoiment"
+            android:layout_gravity="center"
+            android:background="@color/purple_500"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+
+            />
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/purple_500"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/seve"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        />
+
+</LinearLayout>
